@@ -1,0 +1,37 @@
+html {
+    color-scheme: dark;
+    margin: 8px;
+}
+
+p, 
+select, 
+input,
+span {
+    font-size: large;
+}
+
+table {
+    width: 90% !important;
+    margin-left: 5%;
+}
+
+thead {
+    font-weight: 800;
+    font-size: larger;
+}
+
+tbody tr:hover {
+    background: black;
+}
+
+.toast-msg {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 46px;
+    width: 100%;
+    background-color: darkslateblue;
+    color: whitesmoke;
+    border-radius: 6px;
+    font-size: larger;
+}

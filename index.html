@@ -5,31 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compra de coches Madrid</title>
-    <script src="js/class.compra.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/coches.js"></script>
     <script defer src="js/index.js"></script>
 </head>
+
 <body>
+    <h1>Luxury Cars</h1>
+    <h3>Selecciona alguno de nuestros modelos exclusivos:</h3>
 
-    <h1>Compra de coches lujosos</h1>
+    <hr>
+    <input type="search" id="inputSearch" placeholder="Nombre del coche a buscar">
+    <div class="toast-msg"></div>
+    <hr>
 
-    <h3>Nuestros modelos exclusivos:</h3>
-
-    <div>
-        <ol>
-            <li>
-                <p>FERRARI SPIDER</p>
-            </li>
-            <li>
-                <p>LAMBORGHINI GALLARDO</p>
-            </li>
-            <li>
-                <p>MERCEDES AMG</p>
-            </li>
-            <li>
-                <p>LAMBORGHINI HURACÁN EVO</p>
-            </li>
-        </ol>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Carrito</th>
+            </tr>
+        </thead>
+         <tbody id="tablaCoches">
+            
+        </tbody>
+    </table>
 
 </body>
 </html>
